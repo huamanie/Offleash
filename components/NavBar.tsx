@@ -9,19 +9,21 @@ export default function NavBar() {
             </div>
 
             <div className='hidden md:flex md:justify-self-end md:gap-20 text-black'>
-                <button>
+                <button className='hidden'>
                     Merch
                 </button>
                 <button>
                     Shows/Music
                 </button>
             </div>
+
             <Image 
                 src={Logo}
                 alt="Our cool logo that cannot load :("
                 width={64}
                 className='justify-self-center'
             />
+
             <button className='hidden md:block md:justify-self-start md:text-black'>
                 Contact Us
             </button>
