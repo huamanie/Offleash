@@ -1,4 +1,7 @@
 import NavBar from '../components/NavBar'
+import MainPage from '../components/MainPage'
+import SecondPage from '../components/SecondPage'
+import Image from 'next/image'
 
 
 export default function Main() {
@@ -8,10 +11,5 @@ export default function Main() {
       <MainPage />
       <SecondPage />
     </div>
-    <Image
-      src={edDog}
-      alt="A drawing of a dog by Edwin on his laptop track pad (which means it probably didn't turn out like how you'd expect a dog to look)"
-      placeholder="blur"
-    />
   );
 }
